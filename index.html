@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dice-rolling-game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="heading">rolling dice</h1>
+    </header>
+    <main>
+      <div class="container">
+        <button class="reset">reset</button>
+        <div class="sides">
+          <div class="sides_0 fastColor">
+            <div class="score">
+              <div class="scoreLabel_0">score:</div>
+              <div class="score_0">0</div>
+            </div>
+            <div class="highScore">
+              <div class="highScoreLabel_0">highScore :</div>
+              <div class="highScore_0">0</div>
+            </div>
+          </div>
+          <div class="diceImg">
+            <img class="img hidden" src="images/IMG_3.png" alt="not found" />
+          </div>
+          <div class="sides_1">
+            <div class="score">
+              <div class="scoreLabel_1">score:</div>
+              <div class="score_1">0</div>
+            </div>
+            <div class="highScore">
+              <div class="highScoreLabel_1">highScore :</div>
+              <div class="highScore_1">0</div>
+            </div>
+          </div>
+        </div>
+        <div class="buttons">
+          <button class="hold">hold</button>
+          <button class="play">play</button>
+          <div class="winningScore">
+            setWinningScore:
+            <input class="winningScoreValue" type="number" value="99" />
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>

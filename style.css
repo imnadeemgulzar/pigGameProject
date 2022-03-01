@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: darkslategrey;
+}
+.hidden {
+  display: none;
+}
+.heading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: 100;
+  text-align: center;
+  color: darkolivegreen;
+  background-color: #0f5;
+  margin: 1rem 25rem;
+  letter-spacing: 0.4rem;
+  word-spacing: 2rem;
+  padding: 0.3rem 2rem;
+  border-radius: 0.3rem;
+  text-transform: uppercase;
+}
+.diceImg {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 2rem;
+}
+.img {
+  width: 100%;
+  height: 80%;
+}
+.container {
+  height: 70vh;
+  width: 80vw;
+  border: 0.2rem solid #fd3;
+  border-radius: 0.4rem;
+  background-color: #0f5;
+  margin: 3rem auto;
+}
+.sides,
+.highScore,
+.score {
+  display: flex;
+  flex-direction: row;
+}
+.sides_0,
+.sides_1 {
+  width: 50%;
+  height: 100%;
+  background-color: #0e4;
+}
+.fastColor {
+  background-color: #0e1;
+}
+.highScoreLabel_0,
+.highScoreLabel_1,
+.scoreLabel_0,
+.scoreLabel_1 {
+  height: 3rem;
+  width: 8rem;
+  background-color: #fff;
+  color: darkolivegreen;
+  border-radius: 0.2rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-align: center;
+  padding: 0.4rem 0.8rem;
+  margin: 4rem 0 3rem 8rem;
+  text-transform: capitalize;
+}
+.highScore_0,
+.highScore_1,
+.score_0,
+.score_1 {
+  height: 3rem;
+  width: 3rem;
+  background-color: #fd3;
+  color: darkolivegreen;
+  border-radius: 0.2rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 4rem;
+  margin-left: 2rem;
+}
+.highScore_0,
+.highScore_1 {
+  height: 5rem;
+  width: 5rem;
+  font-size: 3.5rem;
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 2rem auto;
+}
+.hold,
+.winningScore,
+.play {
+  background-color: #fff;
+  padding: 0.4rem 1rem;
+  font-size: 1.4rem;
+  color: darkolivegreen;
+  border: #0e4 solid 0.1rem;
+  border-radius: 0.3rem;
+}
+.reset {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0.2rem 1rem;
+  font-size: 2rem;
+  background-color: #fd7;
+  color: darkolivegreen;
+  margin: 0 auto;
+  border: none;
+  border-radius: 0.4rem;
+}
+.play,
+.hold {
+  background-color: #fd3;
+  padding: 0.2rem 0.8rem;
+  color: darkolivegreen;
+}
+.winningScoreValue {
+  width: 5rem;
+  margin-left: 2rem;
+  height: 2.5rem;
+  background-color: #fd3;
+  border: none;
+  color: darkolivegreen;
+  border: #0e1 solid 0.2rem;
+  border-radius: 0.4rem;
+  font-size: 2rem;
+}
+.winningScore {
+  width: 30%;
+}
